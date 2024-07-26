@@ -1,6 +1,3 @@
-Here's a more concise version of your README file:
-
-```markdown
 # Credit-Card-Fraud-Detection
 In this repository, a machine learning algorithm is trained to detect fraudulent transactions from credit cards.
 
@@ -34,11 +31,10 @@ The dataset contains 219,129 observations. 'IsFraud' has 150,000 non-null entrie
 ## Feature Utility Scores
 - **Mutual Information Scores**
 - **Correlation Coefficient**:
-- | Correlation | Features   |
-- ----------------------------
-- | Positive    |   feat3, feat8 |
-- | Negative     |  feat4, feat11, feat28 |
-
+| Correlation | Features          |
+|-------------|-------------------|
+| Negative    | feat3, feat8      |
+| Positive    | feat4, feat11, feat28 |
 
 ## Drop Columns
 Dropped features: 'Time', 'feat2', 'feat6', 'feat13', 'feat25', 'feat27'.
